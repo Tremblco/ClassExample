@@ -12,6 +12,7 @@ public class Student {
     
     private String name;//we use private so that other class cant manipulate the data
     private int age;
+    private boolean parttime;
     
     public Student ()//develop no arg constructor if you wanna insert values in perenthasis in main
     {}
@@ -39,6 +40,20 @@ public class Student {
     public String toString ()
     {
         return "Student Name: "+name+"\tStudent Age: "+age;
+    }
+
+    /**
+     * @return the parttime
+     */
+    public boolean isParttime() {
+        return parttime;
+    }
+
+    /**
+     * @param parttime the parttime to set
+     */
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
     }
     
 }
