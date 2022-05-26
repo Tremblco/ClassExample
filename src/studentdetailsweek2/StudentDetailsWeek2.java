@@ -43,7 +43,8 @@ public class StudentDetailsWeek2 {
        System.out.println(List[i].getName()+"\t"+List[i].getAge());
     }//Method using getters
     
-    System.out.println("THIS IS CHANGE");
+    System.out.println("THIS IS PUSH CHANGE");
+    System.out.println("THIS IS PULL CHANGE");
     
     }
 
