@@ -45,7 +45,7 @@ public class StudentDetailsWeek2 {
     
     System.out.println("THIS IS PUSH CHANGE");
     System.out.println("THIS IS PULL CHANGE");
-    
+    System.out.println("THIS IS FETCH CHANGE");
     }
 
 }
